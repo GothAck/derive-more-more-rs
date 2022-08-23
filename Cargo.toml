@@ -1,0 +1,20 @@
+[package]
+name = "derive-more-more"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+proc_macro = true
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+derive_more = "0.99"
+paste = "1.0"
+proc-macro2 = "1.0"
+quote = "1.0"
+syn = { version = "1.0", features = ["full", "extra-traits"] }
+
+[dev-dependencies]
+trybuild = "1.0"
+paste = "1.0"

@@ -1,0 +1,23 @@
+error: Expected `from_iterator` attribute on struct or one field
+ --> tests/ui/from_iterator/from_iterator_attr_struct_field.rs:4:1
+  |
+4 | #[from_iterator(usize)]
+  | ^
+
+error: Expected `from_iterator` attribute on struct or one field
+  --> tests/ui/from_iterator/from_iterator_attr_struct_field.rs:12:1
+   |
+12 | #[from_iterator(usize)]
+   | ^
+
+error: Expected `from_iterator` attribute on struct or one field
+  --> tests/ui/from_iterator/from_iterator_attr_struct_field.rs:19:1
+   |
+19 | #[from_iterator(usize)]
+   | ^
+
+error: Expected `from_iterator` attribute on struct or one field
+  --> tests/ui/from_iterator/from_iterator_attr_struct_field.rs:23:1
+   |
+23 | #[from_iterator(usize)]
+   | ^

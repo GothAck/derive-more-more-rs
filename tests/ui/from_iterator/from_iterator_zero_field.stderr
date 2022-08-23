@@ -1,0 +1,35 @@
+error: Struct has no fields
+ --> tests/ui/from_iterator/from_iterator_zero_field.rs:4:1
+  |
+4 | #[from_iterator(usize)]
+  | ^
+
+error: Struct has no fields
+ --> tests/ui/from_iterator/from_iterator_zero_field.rs:8:1
+  |
+8 | #[from_iterator(usize)]
+  | ^
+
+error: Struct has no fields
+  --> tests/ui/from_iterator/from_iterator_zero_field.rs:12:1
+   |
+12 | #[from_iterator(usize)]
+   | ^
+
+error: Struct has no fields
+  --> tests/ui/from_iterator/from_iterator_zero_field.rs:16:1
+   |
+16 | struct NamedZeroNoAttr {}
+   | ^^^^^^
+
+error: Struct has no fields
+  --> tests/ui/from_iterator/from_iterator_zero_field.rs:19:1
+   |
+19 | struct UnnamedZeroNoAttr();
+   | ^^^^^^
+
+error: Struct has no fields
+  --> tests/ui/from_iterator/from_iterator_zero_field.rs:22:1
+   |
+22 | struct UnitZeroNoAttr;
+   | ^^^^^^

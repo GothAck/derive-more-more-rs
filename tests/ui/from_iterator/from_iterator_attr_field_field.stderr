@@ -1,0 +1,23 @@
+error: More than one field with `from_iterator` attribute
+ --> tests/ui/from_iterator/from_iterator_attr_field_field.rs:7:5
+  |
+7 |     #[from_iterator(usize)]
+  |     ^
+
+error: More than one field with `from_iterator` attribute
+ --> tests/ui/from_iterator/from_iterator_attr_field_field.rs:5:5
+  |
+5 |     #[from_iterator(usize)]
+  |     ^
+
+error: More than one field with `from_iterator` attribute
+  --> tests/ui/from_iterator/from_iterator_attr_field_field.rs:12:72
+   |
+12 | struct UnnamedMultiAttrStructField(#[from_iterator(usize)] Vec<usize>, #[from_iterator(usize)] bool);
+   |                                                                        ^
+
+error: More than one field with `from_iterator` attribute
+  --> tests/ui/from_iterator/from_iterator_attr_field_field.rs:12:36
+   |
+12 | struct UnnamedMultiAttrStructField(#[from_iterator(usize)] Vec<usize>, #[from_iterator(usize)] bool);
+   |                                    ^

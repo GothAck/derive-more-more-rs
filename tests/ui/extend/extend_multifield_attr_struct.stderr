@@ -1,0 +1,11 @@
+error: Struct has more than one field, move the `extend` attribute to the appropriate field
+ --> tests/ui/extend/extend_multifield_attr_struct.rs:4:1
+  |
+4 | #[extend(usize)]
+  | ^
+
+error: Struct has more than one field, move the `extend` attribute to the appropriate field
+  --> tests/ui/extend/extend_multifield_attr_struct.rs:11:1
+   |
+11 | #[extend(usize)]
+   | ^

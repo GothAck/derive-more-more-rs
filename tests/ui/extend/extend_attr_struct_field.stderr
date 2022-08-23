@@ -1,0 +1,23 @@
+error: Expected `extend` attribute on struct or one field
+ --> tests/ui/extend/extend_attr_struct_field.rs:4:1
+  |
+4 | #[extend(usize)]
+  | ^
+
+error: Expected `extend` attribute on struct or one field
+  --> tests/ui/extend/extend_attr_struct_field.rs:12:1
+   |
+12 | #[extend(usize)]
+   | ^
+
+error: Expected `extend` attribute on struct or one field
+  --> tests/ui/extend/extend_attr_struct_field.rs:19:1
+   |
+19 | #[extend(usize)]
+   | ^
+
+error: Expected `extend` attribute on struct or one field
+  --> tests/ui/extend/extend_attr_struct_field.rs:23:1
+   |
+23 | #[extend(usize)]
+   | ^

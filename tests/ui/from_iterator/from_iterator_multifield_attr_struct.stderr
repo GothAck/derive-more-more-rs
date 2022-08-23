@@ -1,0 +1,11 @@
+error: Struct has more than one field, move the `from_iterator` attribute to the appropriate field
+ --> tests/ui/from_iterator/from_iterator_multifield_attr_struct.rs:4:1
+  |
+4 | #[from_iterator(usize)]
+  | ^
+
+error: Struct has more than one field, move the `from_iterator` attribute to the appropriate field
+  --> tests/ui/from_iterator/from_iterator_multifield_attr_struct.rs:11:1
+   |
+11 | #[from_iterator(usize)]
+   | ^
